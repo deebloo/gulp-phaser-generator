@@ -57,7 +57,7 @@ gulp.task('serve:dev', serve('app'));
 gulp.task('serve:prod', serve('build'));
 
 // Create build, move assets and build js
-gulp.task('build', ['js', 'assets']);
+gulp.task('phaser:build', ['js', 'assets']);
 
 // Run the game in dev mode
 gulp.task('run:dev', ['serve:dev']);
